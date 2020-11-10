@@ -51,4 +51,7 @@
         font-size: 5vw; /* 1vw = 1% of viewport width */
     }
 
+    .row {
+        padding: 15px;
+    }
 }
