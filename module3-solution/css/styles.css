@@ -1,0 +1,54 @@
+/* HEADER */
+#header-nav {
+    background-color: #1d1b1b;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 12px;
+}
+
+.navbar-brand h1 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list a {
+    color: #fff;
+    text-align: center;
+    height: 100%;
+}
+#nav-list a:hover{
+    background-color: #d6d6d6;
+    color:  #1d1b1b;
+}
+
+.navbar-header button.navbar-toggle {
+    clear:both;
+    margin-top: -30px;
+}
+
+#chicken {
+    background-color: #d6d6d6;
+}
+
+/* Extra small devices only */
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+
+}
